@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>2048 Games</title>
+    <script type = "text/javascript" src="move.JS"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="initial();" onkeydown="getKeyAndMove(event)">
+    <div class="header">
+      <h1>Welcome to 2048 World!</h1>
+    </div>   
+    <div class="score" style="text-align: center">
+      <span>Score: </span>
+      <span id="scores">0</span>
+    </div>
+    <div style="text-align: center" class="container" >
+      <div class="row">
+        <div style = "min-width:max-content;">
+          <image class="column" id="11" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="12" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="13" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="14" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+        </div>
+      </div>
+      <div class="row">
+        <div style = "min-width:max-content;">
+          <image class="column" id="21" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="22" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="23" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="24" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+        </div>
+      </div>
+      <div class="row">
+        <div style = "min-width:max-content;">
+          <image class="column" id="31" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="32" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="33" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="34" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+        </div>
+      </div>
+      <div class="row">
+        <div style = "min-width:max-content;">
+          <image class="column" id="41" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="42" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="43" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+          <image class="column" id="44" src="img/0.png" alt="0" style="width: 60px;height: 60px;border-radius: 8px;">
+        </div>
+      </div>
+    </div>
+    <div class="bottom"></div>
+  </body>
+</html>
